@@ -1,0 +1,42 @@
+
+    h1{
+        color: darkgreen;
+        font-family: Arial, Helvetica, sans-serif
+    }
+
+    #byline{
+        color:green;
+        font-family:Arial, Helvetica, sans-serif
+    }
+
+    #image{
+        float:right;
+
+    }
+    
+body {
+    width: 50%;
+    margin: auto;
+
+}
+
+@media (orientation: portrait){
+    body{
+    width:95%;
+    font-size: 2em;
+
+    }
+
+}
+
+/* how to comment in CSS */ 
+
+/*
+during coding - can use this to look at different divs 
+div{
+
+border:solid 2px green
+
+}
+
+*/ 
