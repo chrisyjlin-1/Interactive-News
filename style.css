@@ -1,4 +1,5 @@
 
+    /* heading and byline color changed to green*/
     h1{
         color: darkgreen;
         font-family: Arial, Helvetica, sans-serif
@@ -9,16 +10,25 @@
         font-family:Arial, Helvetica, sans-serif
     }
 
+
 #image {
     float: inline-start
 }
-    
+
+/* width is good for laptop/landscape orientation*/
 body {
     width: 50%;
     margin: auto;
 
 }
 
+/* changed the font size of caption and aligned it to the right*/
+#caption {
+    text-align: right;
+    font-size: 0.75em
+}
+
+/* changes width of text when looking at website from phone*/
 @media (orientation: portrait){
     body{
     width:95%;
